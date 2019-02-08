@@ -2,16 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12787" started-at="2019-02-08T14:16:34Z" finished-at="2019-02-08T14:16:47Z">
+  <suite name="Suite" duration-ms="17289" started-at="2019-02-08T16:12:56Z" finished-at="2019-02-08T16:13:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12787" started-at="2019-02-08T14:16:34Z" finished-at="2019-02-08T14:16:47Z">
+    <test name="Test" duration-ms="17289" started-at="2019-02-08T16:12:56Z" finished-at="2019-02-08T16:13:13Z">
       <class name="com.automation.testCases.LoginTest">
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.automation.testCases.LoginTest@5034c75a]" name="loginApp" duration-ms="12734" started-at="2019-02-08T19:46:34Z" finished-at="2019-02-08T19:46:47Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.LoginTest@d2cc05a]" name="setup" is-config="true" duration-ms="10847" started-at="2019-02-08T21:42:56Z" finished-at="2019-02-08T21:43:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.automation.testCases.LoginTest@d2cc05a]" name="loginApp" duration-ms="5436" started-at="2019-02-08T21:43:07Z" finished-at="2019-02-08T21:43:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testCases.LoginTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="914" started-at="2019-02-08T21:43:12Z" finished-at="2019-02-08T21:43:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.automation.testCases.LoginTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
