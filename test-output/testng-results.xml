@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17289" started-at="2019-02-08T16:12:56Z" finished-at="2019-02-08T16:13:13Z">
+  <suite name="Suite" duration-ms="14290" started-at="2019-02-09T10:53:58Z" finished-at="2019-02-09T10:54:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17289" started-at="2019-02-08T16:12:56Z" finished-at="2019-02-08T16:13:13Z">
+    <test name="Test" duration-ms="14290" started-at="2019-02-09T10:53:58Z" finished-at="2019-02-09T10:54:13Z">
       <class name="com.automation.testCases.LoginTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.LoginTest@d2cc05a]" name="setup" is-config="true" duration-ms="10847" started-at="2019-02-08T21:42:56Z" finished-at="2019-02-08T21:43:07Z">
+        <test-method status="PASS" signature="suitSetup()[pri:0, instance:com.automation.testCases.LoginTest@7823a2f9]" name="suitSetup" is-config="true" duration-ms="1024" started-at="2019-02-09T16:23:57Z" finished-at="2019-02-09T16:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suitSetup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.LoginTest@7823a2f9]" name="setup" is-config="true" duration-ms="11197" started-at="2019-02-09T16:23:58Z" finished-at="2019-02-09T16:24:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.automation.testCases.LoginTest@d2cc05a]" name="loginApp" duration-ms="5436" started-at="2019-02-08T21:43:07Z" finished-at="2019-02-08T21:43:12Z">
+        <test-method status="PASS" signature="loginApp()[pri:0, instance:com.automation.testCases.LoginTest@7823a2f9]" name="loginApp" duration-ms="2232" started-at="2019-02-09T16:24:10Z" finished-at="2019-02-09T16:24:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testCases.LoginTest@d2cc05a]" name="tearDown" is-config="true" duration-ms="914" started-at="2019-02-08T21:43:12Z" finished-at="2019-02-08T21:43:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testCases.LoginTest@7823a2f9]" name="tearDown" is-config="true" duration-ms="821" started-at="2019-02-09T16:24:12Z" finished-at="2019-02-09T16:24:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

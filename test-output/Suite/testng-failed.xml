@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="com.automation.testCases.TestcaseWithoutFramework">
+      <class name="com.automation.testCases.LoginTest">
         <methods>
-          <include name="test1"/>
+          <include name="tearDown"/>
+          <include name="loginApp"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.automation.testCases.TestcaseWithoutFramework -->
+      </class> <!-- com.automation.testCases.LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
