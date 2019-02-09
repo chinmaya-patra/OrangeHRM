@@ -8,6 +8,8 @@
           <include name="tearDown"/>
           <include name="loginApp"/>
           <include name="setup"/>
+          <include name="suitSetup"/>
+          <include name="tearDownMethod"/>
         </methods>
       </class> <!-- com.automation.testCases.LoginTest -->
     </classes>
