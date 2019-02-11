@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="19110" started-at="2019-02-09T20:46:35Z" finished-at="2019-02-09T20:46:54Z">
+  <suite name="Suite" duration-ms="22573" started-at="2019-02-11T06:16:09Z" finished-at="2019-02-11T06:16:32Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="19110" started-at="2019-02-09T20:46:35Z" finished-at="2019-02-09T20:46:54Z">
+    <test name="Test" duration-ms="22573" started-at="2019-02-11T06:16:09Z" finished-at="2019-02-11T06:16:32Z">
       <class name="com.automation.testCases.LoginTest">
-        <test-method status="PASS" signature="suitSetup()[pri:0, instance:com.automation.testCases.LoginTest@5c7fa833]" name="suitSetup" is-config="true" duration-ms="1381" started-at="2019-02-10T02:16:33Z" finished-at="2019-02-10T02:16:35Z">
+        <test-method status="PASS" signature="suitSetup()[pri:0, instance:com.automation.testCases.LoginTest@5c7fa833]" name="suitSetup" is-config="true" duration-ms="1458" started-at="2019-02-11T11:46:08Z" finished-at="2019-02-11T11:46:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suitSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.LoginTest@5c7fa833]" name="setup" is-config="true" duration-ms="5982" started-at="2019-02-10T02:16:35Z" finished-at="2019-02-10T02:16:41Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.testCases.LoginTest@5c7fa833]" name="setup" is-config="true" duration-ms="8329" started-at="2019-02-11T11:46:09Z" finished-at="2019-02-11T11:46:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="loginApp()[pri:0, instance:com.automation.testCases.LoginTest@5c7fa833]" name="loginApp" duration-ms="11211" started-at="2019-02-10T02:16:41Z" finished-at="2019-02-10T02:16:52Z">
+        <test-method status="FAIL" signature="loginApp()[pri:0, instance:com.automation.testCases.LoginTest@5c7fa833]" name="loginApp" duration-ms="11348" started-at="2019-02-11T11:46:18Z" finished-at="2019-02-11T11:46:29Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='/orangehrm/symfony/web/webres_55a775cf9fcff8.50052456/themes/default/images/logo.png']"}
@@ -26,8 +26,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'CHINMAYA-PC', ip: '192.168.1.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\chinmaya\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50024}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: 4ae4fb2a49789e1814f87a625d57626c
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\chinmaya\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49267}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 4024445e3d3d1e37c09cc9df692568ad
 *** Element info: {Using=xpath, value=//img[@src='/orangehrm/symfony/web/webres_55a775cf9fcff8.50052456/themes/default/images/logo.png']}]]>
             </message>
             <full-stacktrace>
@@ -39,8 +39,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
 System info: host: 'CHINMAYA-PC', ip: '192.168.1.16', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\chinmaya\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50024}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: 4ae4fb2a49789e1814f87a625d57626c
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\chinmaya\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:49267}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 4024445e3d3d1e37c09cc9df692568ad
 *** Element info: {Using=xpath, value=//img[@src='/orangehrm/symfony/web/webres_55a775cf9fcff8.50052456/themes/default/images/logo.png']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -90,7 +90,7 @@ Session ID: 4ae4fb2a49789e1814f87a625d57626c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testCases.LoginTest@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="1124" started-at="2019-02-10T02:16:52Z" finished-at="2019-02-10T02:16:53Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.automation.testCases.LoginTest@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="1561" started-at="2019-02-11T11:46:29Z" finished-at="2019-02-11T11:46:30Z">
           <params>
             <param index="0">
               <value>
@@ -101,7 +101,7 @@ Session ID: 4ae4fb2a49789e1814f87a625d57626c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testCases.LoginTest@5c7fa833]" name="tearDown" is-config="true" duration-ms="755" started-at="2019-02-10T02:16:53Z" finished-at="2019-02-10T02:16:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.testCases.LoginTest@5c7fa833]" name="tearDown" is-config="true" duration-ms="1267" started-at="2019-02-11T11:46:30Z" finished-at="2019-02-11T11:46:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
